@@ -1,3 +1,8 @@
+# Anthony Chan
+# CS 3000 - Algorithms and Data Structures
+# Group Project 1, Problem 1: Find Median from Data Stream (LeetCode 295)
+# May 31, 2026
+
 import heapq, random, time
 import matplotlib
 matplotlib.use("Agg")
