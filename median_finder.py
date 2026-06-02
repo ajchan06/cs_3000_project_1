@@ -27,3 +27,16 @@ class MedianFinder:
             return float(-self.lo[0])
         # Even count: median is the average of the two inner tops.
         return (-self.lo[0] + self.hi[0]) / 2
+
+
+class NaiveMedian:
+    def __init__(self):
+        self.data = []  # kept in insertion order (not sorted)
+    def addNum(self, num):
+        self.data.append(num)
+    def findMedian(self):
+        s = sorted(self.data)   # re-sort the whole list from scratch every query
+        n = len(s)
+        if n % 2:
+            return float(s[n // 2])
+        return (s[n // 2 - 1] + s[n // 2]) / 2
