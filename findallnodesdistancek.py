@@ -1,6 +1,7 @@
-#Aahana Surya, Jun 1, 2026
-#CS3000 Algorithms, Project #1
-#Problem #2 Code File: Find All Nodes Distance K in Binary Tree
+# Aahana Surya
+# CS 3000 - Algorithms and Data Structures
+# Group Project 1, Problem 2: All Nodes Distance K in Binary Tree (LeetCode 863)
+# May 31, 2026
 
 class Solution(object):   
     def distanceK(self, root, target, k):
