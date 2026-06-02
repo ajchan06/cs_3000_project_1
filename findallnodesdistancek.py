@@ -1,3 +1,7 @@
+#Aahana Surya, Jun 1, 2026
+#CS3000 Algorithms, Project #1
+#Problem #2 Code File: Find All Nodes Distance K in Binary Tree
+
 class Solution(object):   
     def distanceK(self, root, target, k):
         parent = {} 
