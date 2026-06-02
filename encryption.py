@@ -1,3 +1,7 @@
+# Thomas Song
+# CS 3000 - Algorithms and Data Structures
+# Group Project 1, Problem 3: Encrypt and Decrypt Strings (LeetCode 2227)
+# May 31, 2026
 
 class Encrypter:
 
